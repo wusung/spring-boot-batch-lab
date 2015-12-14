@@ -35,7 +35,6 @@ public class SampleBatchApplication {
 
     @Bean
     protected Tasklet tasklet() {
-        logger.info("Z");
         return new Tasklet() {
             @Override
             public RepeatStatus execute(StepContribution contribution,
